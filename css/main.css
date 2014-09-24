@@ -1,0 +1,128 @@
+/*************************
+general 
+**************************/
+
+
+.container {
+  border: dotted 0px #FF9F7A;
+  padding: 1%;
+  margin: 0;
+}
+
+.grey_box {
+  // background-color: #ccc;
+  margin: 0;
+}
+
+
+.deleteListItem {
+  margin: 0 0 0 10px;
+  position: relative;  /* move it down slightly from where it would */
+  top: 1px;            /* naturally appear */
+  border-radius: 7px;
+}
+
+.checkbox {
+  margin: 1px 15px 10px 0 ;
+  position: relative;  
+  top: 1px;            
+  font-size: 11em;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #666;
+}
+
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  text-transform: none;
+  text-align: left;
+} 
+
+
+/*************************
+heading 
+**************************/
+
+
+
+h1 {
+  float: left;
+  margin: 10px 0 15px 10px;
+  padding: 5px 0 0 0;
+  width: 100%;
+  font-family: 'Sansita One', cursive;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-align: left;
+  text-transform: none;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 10px 10px 25px 10px;
+  font-size: .85em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-align: left;
+  text-transform: none;
+}
+
+/*************************
+task list 
+**************************/
+
+ul {
+  font-size: .9em;
+  line-height: 1.5em;
+  text-transform: none;
+  list-style: none; 
+}
+
+
+
+/*************************
+colors 
+**************************/
+
+/* site body */
+body {
+  background-color: #FFF9FC;
+  color: #444;
+}
+
+ul {
+  color: #999;
+}
+
+
+/* logo text */
+h1 {
+  color: #53B2A1; 
+}
+
+h2 {
+  color: #72E8D2;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
