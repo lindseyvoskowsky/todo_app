@@ -90,8 +90,8 @@ task list
 **************************/
 
 ul {
-  font-size: 1.1em;
-  line-height: 1.8em;
+  font-size: 1.25em;
+  line-height: 2em;
   text-transform: none;
   list-style: none; 
   margin: 0px 0px 10px 0px;
@@ -105,7 +105,7 @@ ul {
   margin: 10px 0px 0px 40px;
   border: none;
   font-family: 'Sansita One', cursive;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #53B2B1;
 
 }
