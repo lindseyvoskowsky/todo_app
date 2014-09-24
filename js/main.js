@@ -93,7 +93,7 @@ function attachDeleteButtonListeners() {
 
 /* this function adds a bunch of dummy values to the list */
 function makeStartingList(){
-  for(var i = 0; i<3; i++){
+  for(var i = 0; i<0; i++){
     addListItem( {task: "Get eggs"});
   }
 }
