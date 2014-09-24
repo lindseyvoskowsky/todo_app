@@ -16,29 +16,30 @@ general
 
 
 .deleteListItem {
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
   position: relative;  /* move it down slightly from where it would */
-  top: 1px;            /* naturally appear */
+  top: 6px;            /* naturally appear */
   border-radius: 7px;
 }
 
 .checkbox {
   margin: 1px 15px 10px 0 ;
   position: relative;  
-  top: 1px;            
-  font-size: 11em;
+  top: 0px;            
+  font-size: 2em;
+
 }
 
 .completed {
   text-decoration: line-through;
-  color: #666;
+  color: #999;
 }
 
 
 body {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.25em;
-  line-height: 1.75em;
+  font-size: 1em;
+  line-height: 1.5em;
   text-transform: none;
   text-align: left;
 } 
@@ -48,29 +49,40 @@ body {
 heading 
 **************************/
 
-
+header {
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: #FF9A61;
+  border-color: #599a68;
+  border-radius: 0%;
+}
 
 h1 {
   float: left;
   margin: 10px 0 15px 10px;
-  padding: 5px 0 0 0;
+  padding: 5px 0 0 10px;
   width: 100%;
   font-family: 'Sansita One', cursive;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: normal;
   line-height: 0.8em;
   text-align: left;
   text-transform: none;
+  color: #FFEEE5;
 }
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin: 10px 10px 25px 10px;
-  font-size: .85em;
+  margin: 10px 10px 0px 10px;
+  font-size: .95em;
   font-weight: normal;
   line-height: 0.8em;
   text-align: left;
   text-transform: none;
+  color: #FF9B61;
+
 }
 
 /*************************
@@ -78,10 +90,29 @@ task list
 **************************/
 
 ul {
-  font-size: .9em;
-  line-height: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.8em;
   text-transform: none;
   list-style: none; 
+  margin: 0px 0px 10px 0px;
+  color: #698F9C;
+
+}
+
+.submitbutton {
+  background-color: transparent;
+  border-radius: 1%;
+  margin: 10px 0px 0px 40px;
+  border: none;
+  font-family: 'Sansita One', cursive;
+  font-size: 1.5em;
+  color: #53B2B1;
+
+}
+
+.taskfield {
+  width: 20em;
+  height: 2.5em;
 }
 
 
@@ -96,19 +127,10 @@ body {
   color: #444;
 }
 
-ul {
-  color: #999;
-}
 
 
-/* logo text */
-h1 {
-  color: #53B2A1; 
-}
 
-h2 {
-  color: #72E8D2;
-}
+
 
 
 

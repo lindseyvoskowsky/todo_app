@@ -10,26 +10,33 @@
   </head>
 
 <body>
+<header>
+
 <h1>Let's Do It!</h1>
-<h2> What do you have to do today? </h2>
+<!--<h2> What do you have to do today? </h2>-->
+</header>
+
 <div class="container">
-  <div class="form grey_box">
-    <form id="the_form" action="#">
-      <div>
-        <label for="task">To Do:</label>
-        <input type="text" name="task" id="task" placeholder="this"/>
-    
-      </div>
-      <div>
-        <button id="submitButton" type="button">Add</button>
-      </div>
-    </form>  
-  </div>
+  
 
   <div class="list grey_box">
     <ul id="taskList"></ul>
-
   </div>
+
+  <div class="form grey_box">
+    <form id="the_form" action="#">
+      <div>
+        <label for="task">To do:</label>
+        <input type="text" name="task" id="task" placeholder="...this" class="taskfield"/>
+  </div>
+  
+  <div>
+    <button id="submitButton" type="button" class="submitbutton">Add!</button>
+  </div>
+  
+  </form>  
+  </div>
+
 </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
